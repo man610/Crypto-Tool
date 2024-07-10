@@ -1,0 +1,63 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    text-align: center;
+}
+h1 {
+    margin-bottom: 20px;
+    font-size: 2.5em;
+    color: #333;
+}
+.tool-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+}
+.tool {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    max-width: 500px;
+    width: 100%;
+    transition: transform 0.3s ease-in-out;
+}
+.tool:hover {
+    transform: scale(1.02);
+}
+.tool h2 {
+    font-size: 1.5em;
+    color: #007bff;
+    margin-bottom: 10px;
+}
+.tool p {
+    font-size: 1em;
+    color: #555;
+    margin-bottom: 20px;
+}
+.tool button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.3s;
+    font-size: 1em;
+}
+.tool button:hover {
+    background-color: #0056b3;
+    transform: translateY(-2px);
+}
+.tool button a {
+    text-decoration: none;
+    color: #fff;
+}
